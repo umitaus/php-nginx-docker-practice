@@ -12,5 +12,8 @@ $ docker-compose exec cgi bash
 [container] $ root@xxxxxxxx:/var/www#
 ```
 
+- docker-compose で立ち上げた複数コンテナの終了は以下で一気に行える
+`docker-compose down`
+
 # 注意点
 - PHP の Dockerfile は最小限のため、PDO などの外部モジュールがインストールされていない
